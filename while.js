@@ -1,93 +1,83 @@
 // Atividade 1
 
-// let numero = 5
-// let multiplicador = 1
+let numero = 5
+let multiplicador = 1
 
-// while ( multiplicador <= 10 ) {
+while ( multiplicador <= 10 ) {
   
-//   console.log ( numero , " x " , multiplicador , " = " , ( numero * multiplicador ) )
+  console.log ( numero , " x " , multiplicador , " = " , ( numero * multiplicador ) )
   
-//     multiplicador++
-// }
+    multiplicador++
+}
 
 //-----------------------------------------------------------------------------------------
 
 // Atividade 2
 
-// usando for 
+let resultado = 0      
+let numero = 1    
+while (numero <= 100) {  
+    resultado += numero
+    numero++      
+}
 
-// for (let numero = 1, numero <= 100, numero++) {
-//     soma += numero
-// }
-
-// console.log("A soma dos números de 1 a 100 é:", soma)
-
-// usando while 
-
-// let resultado = 0      
-// let numero = 1    
-// while (numero <= 100) {  
-//     resultado += numero
-//     numero++      
-// }
-
-// console.log("A soma dos números de 1 a 100 é:", resultado)
+console.log("A soma dos números de 1 a 100 é:", resultado)
 
 //-----------------------------------------------------------------------------------------
 
 // Atividade 3
 
-// function somadedigitos() {
-//     let resultado = 0
+function somadedigitos() {
+    let resultado = 0
 
-//     while (true) {
-//         let num_user = prompt('Digite um número:')
+    while (true) {
+        let num_user = prompt('Digite um número:')
         
-//         if (num_user == 0) {
-//             break
-//         }
+        if (num_user == 0) {
+            break
+        }
 
-//         console.log('Valor atual de resultado: ' + resultado)
-//         resultado = resultado + parseInt(num_user)
-//         console.log('Valor atual de resultado + num_user: ' + resultado)
-//     }
+        console.log('Valor atual de resultado: ' + resultado)
+        resultado = resultado + parseInt(num_user)
+        console.log('Valor atual de resultado + num_user: ' + resultado)
+    }
 
-//     alert('A soma dos números digitados é: ' + resultado)
-// }
+    alert('A soma dos números digitados é: ' + resultado)
+}
 
-// somadedigitos()
+somadedigitos()
 
 //-----------------------------------------------------------------------------------------
 
 // Atividade 4
 
-// let numero1 = 0
-// let numero2 = 1
-// let count = 0
+let numero1 = 0
+let numero2 = 1
+let count = 0
 
-// while (count < 10) { 
-//     console.log(numero1) 
-//     let nextNum = numero1 + numero2 
-//     numero1 = numero2 
-//     numero2 = nextNum
-//     count++     
-// }
+while (count < 10) { 
+    console.log(numero1) 
+    let nextNum = numero1 + numero2 
+    numero1 = numero2 
+    numero2 = nextNum
+    count++     
+}
 
 //-----------------------------------------------------------------------------------------
 
 // Ativida 5
 
-// let str = prompt("Digite uma string:")
-// let invertedStr = ""
+let str = prompt("Digite uma string:")
+let invertedStr = ""
 
-// let iniciar = str.length - 1
+let iniciar = str.length - 1
 
-// while (iniciar >= 0) {
-//     invertedStr += str[iniciar]
-//     iniciar--
-// }
+while (iniciar >= 0) {
+    invertedStr += str[iniciar]
+    iniciar--
+}
 
-// console.log("A string invertida é:", invertedStr)
+console.log("A string invertida é:", invertedStr)
 
 //-----------------------------------------------------------------------------------------
 
@@ -141,7 +131,7 @@ console.log("valor atual de resultado + numero usuarios:" + resultado)
  }
 alert (resultado)
 }
-// somaDigitos()
+somaDigitos()
 
 //-----------------------------------------------------------------------------------------
 
@@ -180,7 +170,7 @@ function inverterString() {
     console.log("A string invertida é:", invertedStr)
 }
 
-// inverterString()
+inverterString()
 
 // Atividade 6 em function
 
